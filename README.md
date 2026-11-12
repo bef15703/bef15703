@@ -1,6 +1,6 @@
 # Hi, I'm Brady Foster 👋
 
-I am a third-year Computer Science student at The University of Georgia (Expected Graduation May 2028) interested in Cybersecurity.
+I am a third-year Computer Science student at The University of Georgia (Expected Graduation May 2028) interested in Cybersecurity and Emerging Media.
 
 [![LinkedIn][linkedin-badge]](https://linkedin.com/in/bradyfoster)
 
@@ -31,6 +31,18 @@ I am a third-year Computer Science student at The University of Georgia (Expecte
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Git](https://img.shields.io/badge/Git-F03C2E?style=for-the-badge&logo=git&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white) 
 
 ## Projects
+
+### AI Driven News and Information Platform - [Repo](https://github.com/bef15703/news-platform)
+*React, TypeScript, Next.js, Node.js, PostgreSQL, Kysely, Tailwind CSS, SwiftUI, Turborepo, Docker*
+- Developed a full-stack editorial application, automating RSS polling and ingestion from various sources,
+semantic article grouping into current event clusters using pgvector HNSW cosine similarity, and LLM
+assisted event analysis.
+- Built an editorial studio dashboard featuring mobile viewport emulation and dynamic UI blocks to enable
+quick event page creation and editing.
+- Designed a server driven UI schema for current event and related entity info pages enabling dynamic
+rendering on SwiftUI iOS client.
+- Enforced deterministic AI outputs by pairing Gemini structured generation with strict JSON schema
+validation across shared workspace packages.
 
 ### Zero Trust, Encrypted Messenger - [Repo](https://github.com/bef15703/encrypted-messenger) | [Live Demo](https://encrypted-messenger-client.vercel.app)
 *React 19, TypeScript, Node.js, Socket.io, PostgreSQL, Web Crypto API, IndexedDB, Vite, Docker/CI*
